@@ -142,14 +142,19 @@ const BirthdayCard = () => {
     setIsFlipped(!isFlipped);
   };
 
-  return (
-    <CardContainer>
-      <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+return (
+  <CardContainer>
+    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+      {/* Bọc CardFront trong một thẻ div */}
+      <div>
         <CardFront onClick={handleClick}>
           <h2>Một món quà nhỏ 🎁</h2>
           <p>(Chạm để mở)</p>
         </CardFront>
+      </div>
 
+      {/* Bọc CardBack trong một thẻ div */}
+      <div>
         <CardBack onClick={handleClick}>
           <StyledImage>
             <img src={birthdayImage} alt="Birthday Celebration" />
@@ -165,9 +170,10 @@ const BirthdayCard = () => {
           <h4>Yêu thương,</h4>
           <p>Người yêu của em 💕</p>
         </CardBack>
-      </ReactCardFlip>
-    </CardContainer>
-  );
+      </div>
+    </ReactCardFlip>
+  </CardContainer>
+);
 };
 
 export default BirthdayCard;
