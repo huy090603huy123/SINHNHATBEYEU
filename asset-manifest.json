@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/SINHNHATBEYEU/static/css/main.e6c13ad2.css",
-    "main.js": "/SINHNHATBEYEU/static/js/main.80d17cb4.js",
+    "main.js": "/SINHNHATBEYEU/static/js/main.b71ff9b5.js",
     "static/js/453.570fa1be.chunk.js": "/SINHNHATBEYEU/static/js/453.570fa1be.chunk.js",
     "static/media/happy-birthday.mp3": "/SINHNHATBEYEU/static/media/happy-birthday.acb2459bf1d7b8d7c2bb.mp3",
-    "static/media/birthday-image.jpg": "/SINHNHATBEYEU/static/media/birthday-image.e86eac3e034ba1b74149.jpg",
+    "static/media/bir.png": "/SINHNHATBEYEU/static/media/bir.8b760986bb6a9e10b643.png",
     "index.html": "/SINHNHATBEYEU/index.html",
     "main.e6c13ad2.css.map": "/SINHNHATBEYEU/static/css/main.e6c13ad2.css.map",
-    "main.80d17cb4.js.map": "/SINHNHATBEYEU/static/js/main.80d17cb4.js.map",
+    "main.b71ff9b5.js.map": "/SINHNHATBEYEU/static/js/main.b71ff9b5.js.map",
     "453.570fa1be.chunk.js.map": "/SINHNHATBEYEU/static/js/453.570fa1be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.80d17cb4.js"
+    "static/js/main.b71ff9b5.js"
   ]
 }
