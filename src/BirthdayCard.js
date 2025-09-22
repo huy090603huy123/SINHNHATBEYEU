@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 import ReactCardFlip from 'react-card-flip';
-import birthdayImage from './assets/birthday-image.jpg'; // Import the image
+import birthdayImage from './assets/bir.png'; // Import the image
 
 // --- Keyframes for Animations ---
 const pulsate = keyframes`
